@@ -2,7 +2,8 @@ import requests
 import lxml.html as lh
 import pandas as pd
 
-url='http://WebUrl_From_which_you_want_to_scrap_table_data.com'
+#Enter the url of website
+url=input("Enter the Url of website:")
 
 #Create a handle, page, to handle the contents of the website
 page = requests.get(url)
