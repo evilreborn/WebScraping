@@ -1,7 +1,24 @@
 # WebScraping
 
-Packages Require: requests,lxml.html,pandas
+A Python program to scrap the table data from a website and save it in your desired format liks csv,json
 
-input: Url of website
+## Prerequisites
 
-Output: Scraped data in csv format (you can change the save format). Saved at same directory as program directory with name "Output"
+Python 3.7
+
+## Installing
+Install the following  using pip command
+Just cpoy and paste below command in your terminal
+
+```bash
+pip install requests,lxml,pandas
+```
+
+## Usage
+To Collect datas from websites
+
+## Built With
+Python 3.7
+
+## Authors
+EvilReborn
